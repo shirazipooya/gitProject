@@ -5,4 +5,9 @@ git add name_file
 git add -A
 git commit -m "comment ..."
 git restore name_file
+git log
+git diff HADE
+git diff --staged
+git reset name_file
+git checkout -- name_file
 
