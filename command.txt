@@ -1,2 +1,8 @@
 git init
+git status
+git rm --cached name_file
+git add name_file
+git add -A
+git commit -m "comment ..."
+git restore name_file
 
