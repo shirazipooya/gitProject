@@ -35,3 +35,12 @@ git remote
 git remote -v
 
 git push -u origin master
+
+git show hash
+git show HEAD
+
+
+git tag
+git tag -a v0.0.1 -m "comment"
+git tag -a v0.0.1 hash -m "comment"
+git show v0.0.1
