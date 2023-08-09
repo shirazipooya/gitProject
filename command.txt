@@ -56,3 +56,17 @@ gpg --list-secret-keys --keyid-format long
 git config --global user.signingkey DE1E73CDF2BE2DA0
 
 git tag -s v0.0.1 hash -m "comment"
+
+git tag -v v0.0.2
+
+git commit -S -m "comment ..."
+
+git blame name_file -Lnumber_line,...
+
+
+git bisect start
+git bisect bad
+git bisect good hash
+git bisect bad
+git bisect good
+
