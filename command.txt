@@ -34,3 +34,4 @@ git remote add origin url
 git remote
 git remote -v
 
+git push -u origin master
