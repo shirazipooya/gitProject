@@ -44,3 +44,9 @@ git tag
 git tag -a v0.0.1 -m "comment"
 git tag -a v0.0.1 hash -m "comment"
 git show v0.0.1
+
+git push origin v0.0.1
+git push origin --tags
+git checkout v0.0.1
+
+
