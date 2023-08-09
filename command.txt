@@ -26,3 +26,6 @@ git rm name_file
 git mv name_file name_file
 
 
+git clone url
+git push origin master
+git pull origin master
