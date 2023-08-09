@@ -22,3 +22,7 @@ git branch -D name_branch
 
 git merge name_branch
 
+git rm name_file
+git mv name_file name_file
+
+
