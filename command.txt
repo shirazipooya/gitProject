@@ -10,4 +10,4 @@ git diff HADE
 git diff --staged
 git reset name_file
 git checkout -- name_file
-
+git restore --staged name_file
