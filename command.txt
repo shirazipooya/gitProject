@@ -6,8 +6,19 @@ git add -A
 git commit -m "comment ..."
 git restore name_file
 git log
+
 git diff HADE
 git diff --staged
 git reset name_file
 git checkout -- name_file
 git restore --staged name_file
+
+git branch
+git branch name_branch
+git checkout name_branch
+git checkout -b name_branch
+git branch -d name_branch
+git branch -D name_branch
+
+git merge name_branch
+
