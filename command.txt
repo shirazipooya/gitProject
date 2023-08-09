@@ -50,3 +50,9 @@ git push origin --tags
 git checkout v0.0.1
 
 
+gpg --list-keys
+gpg --gen-key
+gpg --list-secret-keys --keyid-format long
+git config --global user.signingkey DE1E73CDF2BE2DA0
+
+git tag -s v0.0.1 hash -m "comment"
